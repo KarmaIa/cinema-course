@@ -66,7 +66,7 @@ try {
 
         http_response_code(409);
         echo json_encode([
-            'error' => "В этом зале уже идет фильм '{$overlap['title']}'. Он начинается в {$overlapStartTime} и заканчивается в {$overlapEndTime}. Выберите другое время или зал."
+            'error' => "В этом зале уже идет или будет идти фильм '{$overlap['title']}'. Он начинается в {$overlapStartTime} и заканчивается в {$overlapEndTime}. Выберите другое время или зал."
         ]);
         exit;
     }
