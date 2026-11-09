@@ -1,0 +1,55 @@
+.managment-panel {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.managment-panel__film-tab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.managment-panel__films-list {
+    flex: 1;
+    min-width: 300px;
+}
+
+.managment-panel__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.managment-panel__btn-backToSite {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.managment-panel__header__message {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.managment-panel__navigation {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.managment-panel__navigation button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.managment-panel__navigation button:hover {
+    background: #e0e0e0;
+}

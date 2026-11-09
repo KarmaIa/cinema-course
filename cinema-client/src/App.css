@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-container__error {
+  color: red;
+}
+
+.main-container__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container__title__btn-managment {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.main-container__sessions-films {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.main-container__sessions-films__film-list {
+    flex: 1;
+    min-width: 300px;
+}

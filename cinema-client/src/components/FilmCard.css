@@ -1,0 +1,63 @@
+.film-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.film-card__btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.film-card h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.film-card h1 span {
+  font-size: 14px;
+  color: gray;
+}
+
+.film-card__rating {
+  font-size: 14px;
+  color: gray;
+}
+
+.film-card__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.film-card__btn-edit,
+.film-card__btn-delete {
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+
+.film-card__btn-edit {
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+}
+
+.film-card__btn-edit:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.film-card__btn-delete {
+    border: 1px solid red;
+    color: red;
+}
+
+.film-card__btn-delete:hover {
+    background-color: red;
+    color: white;
+}

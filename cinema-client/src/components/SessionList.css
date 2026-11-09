@@ -1,0 +1,10 @@
+.session-list {
+    flex: 1;
+    min-width: 300px;
+}
+
+.session-list__items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

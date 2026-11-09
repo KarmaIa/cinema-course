@@ -1,0 +1,11 @@
+.session-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.session-card__availableSeats {
+  font-weight: bold;
+}

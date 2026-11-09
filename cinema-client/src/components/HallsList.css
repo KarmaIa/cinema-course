@@ -1,0 +1,17 @@
+.halls-list__table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.halls-list__table__thead tr {
+    background: #f4f4f4;
+}
+
+.halls-list__table th, 
+.halls-list__table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
